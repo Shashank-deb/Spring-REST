@@ -1,0 +1,27 @@
+package com.luv2code.jackson.json.demo;
+
+public class Address {
+	
+	private String street;
+	private String city;
+	private String state;
+	private String zip;
+	private String country;
+	
+	
+	public Address() {
+		System.out.println("Object of Address class is created");
+	}
+	
+	
+	public String getStreet() {
+		return street;
+	}
+	
+	public void setStreet(String street) {
+		this.street = street;
+	}
+	
+	
+
+}

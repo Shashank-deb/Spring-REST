@@ -1,0 +1,9 @@
+package com.luv2code.jackson.json.demo;
+
+public class Address {
+	
+	private String street;
+	private String city;
+	private String state
+
+}
